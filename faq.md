@@ -13,8 +13,8 @@ Mediterranean cocktail—light fabrics, florals welcome.
 Yes! Please include them in your RSVP count.
 
 
-**Shuttle or parking?**
-Limited parking at the venue; we’ll share shuttle details closer to the date.
+<!-- **Shuttle or parking?**
+Limited parking at the venue; we’ll share shuttle details closer to the date. -->
 
 
 **Allergies?**

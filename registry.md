@@ -11,14 +11,19 @@ For those who have asked how to offer a little extra kindness, here are some sim
 
 ### Contribution Options
 - **For EUR transfers**
+
   **IBAN:** `GR....`
 
 - **For GBP transfers (Revolut)**
+
   **IBAN:** `GB46 REVO 0099 7045 0597 25`
 
 - **For USD transfers**
+
   **ACCOUNT:** `8310136172`
+
   **ROUTING:** `026073150`
+
   **TYPE:** `Checking`
 
 ---

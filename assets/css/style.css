@@ -96,6 +96,25 @@ body.nav-open .nav-links{transform:translateY(0)}
 
 .site-footer{border-top:1px solid var(--border);padding:2rem 0;text-align:center;color:#707070}
 
+.gitlab-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4em;
+    font-size: 0.8rem;
+    color: #707070;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: color .2s ease-in-out;
+}
+
+.gitlab-badge:hover {
+    color: #fc6d26; /* GitLab orange */
+}
+
+.gitlab-logo {
+    vertical-align: middle;
+}
+
 /* Corner Decorations */
 .corner-decoration {
     position: fixed;

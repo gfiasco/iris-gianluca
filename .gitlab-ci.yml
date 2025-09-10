@@ -1,0 +1,22 @@
+# Use the official Ruby image.
+image: ruby:3.0
+
+# This is the job that will be executed by the GitLab Runner.
+pages:
+  # This script will be executed in the job.
+  script:
+    # Install the dependencies defined in the Gemfile.
+    - bundle install
+    # Build the Jekyll site. The output will be in the 'public' directory.
+    - bundle exec jekyll build -d public
+  
+  # This defines the artifacts (the files to be saved from the job).
+  # In this case, it's the entire 'public' directory.
+  artifacts:
+    paths:
+      - public
+      
+  # This specifies that the job should only run on the 'main' branch.
+  # Change this to 'master' if that's your default branch.
+  only:
+    - main

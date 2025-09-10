@@ -1,0 +1,96 @@
+/* Sicily Lemon theme */
+:root{
+--bg: #fffdf7; /* parchment/cream */
+--paper: #ffffff;
+--ink: #2b2b2b;
+--accent: #0d6e6e; /* Mediterranean teal */
+--lemon: #ffd84d; /* sunny lemon */
+--zest: #f7b500; /* deeper lemon */
+--sage: #7aa17a; /* leaf green */
+--border: #e9e2cf;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:"Mulish", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji"}
+
+.welcome-grid {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap; /* ensures it stacks on mobile */
+}
+
+.welcome-grid .hero-image {
+  flex: 1 1 300px;
+}
+
+.welcome-grid .hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.welcome-grid .card {
+  flex: 1 1 300px;
+}
+
+.hero-image {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 24px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.container{max-width:980px;margin-inline:auto;padding:0 1.25rem}
+
+
+.site-header{position:relative;padding-top:.5rem}
+.hero{padding:2.75rem 0 1.5rem;text-align:center}
+.couple{font-family:"Marcellus", Georgia, serif;font-size:clamp(2rem, 4vw, 3rem);margin:.25rem 0}
+.subtitle{color:#5b5b5b;margin:.25rem 0}
+.date{letter-spacing:.08em;color:var(--accent);font-weight:600;margin:.25rem 0}
+
+
+/* Lemon vine ornament */
+/* .lemon-vine{position:absolute;inset:0 0 auto 0;height:18px;background:
+repeating-linear-gradient(90deg, transparent 0 38px, var(--border) 38px 39px),
+linear-gradient(180deg, var(--lemon), var(--zest));
+mask: linear-gradient(black, black) top/100% 12px no-repeat;
+}
+.lemon-vine::after{content:"";position:absolute;inset:auto 0 -8px 0;height:24px;background:url('../img/lemons.svg') repeat-x center/72px 24px;opacity:.9} */
+
+
+/* Navigation */
+.nav{display:flex;align-items:center;gap:1rem;justify-content:space-between;border-top:1px solid var(--border);border-bottom:1px solid var(--border);background:var(--paper);position:sticky;top:0;z-index:10}
+.brand{font-family:"Marcellus", Georgia, serif;text-decoration:none;color:var(--accent);font-size:1.125rem;padding:.75rem 0}
+.nav-links{list-style:none;display:flex;gap:.75rem;margin:0;padding:0}
+.nav-links a{display:block;padding:.75rem .9rem;border-radius:999px;text-decoration:none;color:inherit}
+.nav-links a:hover,.nav-links a.active{background:var(--lemon)}
+.nav-toggle{display:none}
+@media (max-width:760px){
+.nav-toggle{display:block;background:none;border:0;font-size:1.4rem;padding:.5rem 0}
+.nav-links{position:fixed;inset:60px 0 auto 0;flex-direction:column;background:var(--paper);border-bottom:1px solid var(--border);transform:translateY(-130%);transition:.25s ease;padding:.5rem 1rem}
+body.nav-open .nav-links{transform:translateY(0)}
+}
+
+
+/* Content */
+.content{padding:2rem 0}
+.page-title{font-family:"Marcellus", Georgia, serif;border-left:6px solid var(--lemon);padding-left:.6rem;margin-top:0}
+.page p{line-height:1.7}
+.page h3{font-family:"Marcellus", Georgia, serif;margin-top:1.5rem}
+.card{background:var(--paper);border:1px solid var(--border);border-radius:16px;padding:1rem;margin:1rem 0;box-shadow:0 1px 0 rgba(0,0,0,.03)}
+.list{padding:0;margin:0;list-style:none}
+.list li{padding:.5rem 0;border-bottom:1px dashed var(--border)}
+.badge{display:inline-block;padding:.25rem .6rem;border-radius:999px;background:var(--lemon);font-weight:600;letter-spacing:.02em}
+.button{display:inline-block;background:var(--accent);color:white;text-decoration:none;padding:.7rem 1rem;border-radius:999px}
+.button:hover{filter:brightness(0.95)}
+
+
+.site-footer{border-top:1px solid var(--border);padding:2rem 0;text-align:center;color:#707070}

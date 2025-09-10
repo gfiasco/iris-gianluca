@@ -1,0 +1,26 @@
+title: "Iris & Gian Luca"
+description: "Our wedding in Sicily"
+baseurl: ""
+url: ""
+permalink: pretty
+
+
+# Customize these
+wedding_date: 2026-05-30
+venue_name: "Pantanelli di Vendicari"
+venue_address: "c.da roveto di vendicari 96017 Noto, Italy"
+venue_map_embed_url: "https://www.google.com/maps?q=Farm+Pantanelli+Vendicari&output=embed"
+
+
+# RSVP handling (Formspree example). Replace with your endpoint or Netlify forms.
+rsvp_form_action: "https://formspree.io/f/yourFormID"
+
+
+collections:
+  pages:
+    output: true
+
+
+markdown: kramdown
+theme: null
+plugins: []

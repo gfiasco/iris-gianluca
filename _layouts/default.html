@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mulish:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <!-- <div class="lemon-vine" aria-hidden="true"></div> -->
+        <div class="container hero">
+            <h1 class="couple">{{ site.title }}</h1>
+            <p class="subtitle">{{ site.description }}</p>
+            <p class="date">{{ site.wedding_date | date: "%B %e, %Y" }}</p>
+        </div>
+    {% include nav.html %}
+    </header>
+
+
+    <main class="container content">
+        {{ content }}
+    </main>
+
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>With love from Sicily · {{ site.title }}</p>
+        </div>
+    </footer>
+</body>
+</html>

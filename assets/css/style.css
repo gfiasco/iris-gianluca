@@ -52,7 +52,7 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font-family:"
 
 .site-header{position:relative;padding-top:.5rem}
 .hero{padding:2.75rem 0 1.5rem;text-align:center}
-.couple{font-family:"Marcellus", Georgia, serif;font-size:clamp(2rem, 4vw, 3rem);margin:.25rem 0}
+.couple{font-family:"Marcellus", Georgia, serif;font-size:clamp(2rem, 4vw, 3rem);margin:.25rem 0;color:var(--accent)}
 .subtitle{color:#5b5b5b;margin:.25rem 0}
 .date{letter-spacing:.08em;color:var(--accent);font-weight:600;margin:.25rem 0}
 
@@ -82,9 +82,9 @@ body.nav-open .nav-links{transform:translateY(0)}
 
 /* Content */
 .content{padding:2rem 0}
-.page-title{font-family:"Marcellus", Georgia, serif;border-left:6px solid var(--lemon);padding-left:.6rem;margin-top:0}
+.page-title{font-family:"Marcellus", Georgia, serif;border-left:6px solid var(--lemon);padding-left:.6rem;margin-top:0;color:var(--accent)}
 .page p{line-height:1.7}
-.page h3{font-family:"Marcellus", Georgia, serif;margin-top:1.5rem}
+.page h3{font-family:"Marcellus", Georgia, serif;margin-top:1.5rem;color:var(--accent)}
 .card{background:var(--paper);border:1px solid var(--border);border-radius:16px;padding:1rem;margin:1rem 0;box-shadow:0 1px 0 rgba(0,0,0,.03)}
 .list{padding:0;margin:0;list-style:none}
 .list li{padding:.5rem 0;border-bottom:1px dashed var(--border)}
@@ -94,3 +94,51 @@ body.nav-open .nav-links{transform:translateY(0)}
 
 
 .site-footer{border-top:1px solid var(--border);padding:2rem 0;text-align:center;color:#707070}
+
+/* Corner Decorations */
+.corner-decoration {
+    position: fixed;
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none; /* So they don't block clicks */
+    z-index: 0;
+}
+
+.top-left {
+    top: -20px; /* Slight offset to make it look better */
+    left: -20px;
+    background-image: url('../img/lemons-top-left.png');
+}
+
+.top-right {
+    top: -50px;
+    right: -60px;
+    width: 300px;
+    height: 300px;
+    background-image: url('../img/watercolor-top-right.png');
+    background-position: top right;
+}
+
+.bottom-left {
+    bottom: -50px;
+    left: -60px;
+    width: 300px;
+    height: 300px;
+    background-image: url('../img/watercolor-bottom-left.png');
+    background-position: bottom left;
+}
+
+.bottom-right {
+    bottom: -20px;
+    right: -20px;
+    background-image: url('../img/lemons-bottom-right.png');
+    background-position: bottom right;
+}
+
+@media (max-width: 760px) {
+  .corner-decoration {
+    display: none;
+  }
+}

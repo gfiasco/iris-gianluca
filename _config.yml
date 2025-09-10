@@ -4,11 +4,6 @@ baseurl: ""
 url: ""
 permalink: pretty
 
-# Internationalization
-languages: ["en", "it", "el"]
-default_lang: "en"
-exclude_from_localization: ["assets"]
-parallel_localization: false
 
 # Customize these
 wedding_date: 2026-05-30

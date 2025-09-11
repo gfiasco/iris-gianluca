@@ -19,7 +19,7 @@ permalink: /venue/
     </div>
   </div>
   <div class="grid-item image-item">
-    <img src="{{ '/assets/img/palazzo.png' | relative_url }}" alt="Palazzo Ducezio" style="width:100%;height:auto;border-radius:16px;">
+    <img src="{{ '/assets/img/palazzo.jpg' | relative_url }}" alt="Palazzo Ducezio" style="width:100%;height:auto;border-radius:16px;">
   </div>
 </div>
 

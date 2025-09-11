@@ -4,8 +4,7 @@ title: RSVP
 permalink: /rsvp/
 ---
 
-
-Please RSVP by **April 20, 2026**.
+Please RSVP by **{{ site.rsvp_deadline | date: "%B %e, %Y" }}**.
 
 
 <form class="card" method="POST" action="{{ site.rsvp_form_action }}">

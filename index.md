@@ -11,7 +11,7 @@ title: Welcome
   <div class="card">
     <p class="badge">Benvenuti!</p>
     <p>
-    We’re so excited to celebrate with you in beautiful Sicily. On this site you’ll find details about the schedule, venue, how to get there, where to stay, and more. Please RSVP by <strong>April 25, 2026</strong>.
+    We’re so excited to celebrate with you in beautiful Sicily. On this site you’ll find details about the schedule, venue, how to get there, where to stay, and more. Please RSVP by <strong>{{ site.rsvp_deadline | date: "%A, %B %e, %Y" }}</strong>.
     </p>
   </div>
 </div>

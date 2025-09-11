@@ -3,11 +3,14 @@ description: "Our wedding in Sicily"
 baseurl: ""
 url: ""
 permalink: pretty
+city: "Noto (SR)"
+region: "Sicily"
+country: "Italy"
 
 
 wedding_date: 2026-05-30
 venue_name: "Pantanelli di Vendicari"
-venue_address: "c.da roveto di vendicari 96017 Noto, Italy"
+venue_address: "c.da roveto di vendicari 96017 Noto (SR), Italy"
 venue_map_embed_url: "https://www.google.com/maps?q=Farm+Pantanelli+Vendicari&output=embed"
 townhall_name: "Palazzo Ducezio"
 townhall_address: "Piazza Municipio, 1 - 96017 Noto (SR), Italy"

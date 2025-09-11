@@ -10,7 +10,9 @@ title: Welcome
 
   <div class="card">
     <p class="badge">Benvenuti!</p>
-    <p>We’re so excited to celebrate with you in beautiful Sicily. On this site you’ll find details about the schedule, venue, how to get there, where to stay, and more. Please RSVP by <strong>April 20, 2026</strong>.</p>
+    <p>
+    We’re so excited to celebrate with you in beautiful Sicily. On this site you’ll find details about the schedule, venue, how to get there, where to stay, and more. Please RSVP by <strong>April 20, 2026</strong>.
+    </p>
   </div>
 </div>
 

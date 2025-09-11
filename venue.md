@@ -10,7 +10,6 @@ permalink: /venue/
 
 <div class="media-map-container">
   <div class="grid-item card map-item">
-    <h3>Map</h3>
     <div style="position:relative;padding-top:75%">
       <iframe
       src="{{ site.townhall_map_embed_url }}"
@@ -29,13 +28,12 @@ permalink: /venue/
 
 
 <div class="card">
-<h3>Map</h3>
-<div style="position:relative;padding-top:56.25%">
-<iframe
-src="{{ site.venue_map_embed_url }}"
-width="600" height="450" style="border:0;position:absolute;inset:0;width:100%;height:100%" allowfullscreen=""
-loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+    <div style="position:relative;padding-top:56.25%">
+        <iframe
+            src="{{ site.venue_map_embed_url }}"
+            width="600" height="450" style="border:0;position:absolute;inset:0;width:100%;height:100%" allowfullscreen=""
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </div>
 
 

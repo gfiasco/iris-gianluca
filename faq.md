@@ -13,9 +13,9 @@ Mediterranean cocktail—light fabrics, florals welcome.
 Yes! Please include them in your RSVP count.
 
 
-<!-- **Shuttle or parking?**
-Limited parking at the venue; we’ll share shuttle details closer to the date. -->
-
-
 **Allergies?**
 Please list in your RSVP and we’ll accommodate.
+
+
+**Do I need a car?**
+Yes, you definitely need a car to get to Noto, SR. Public transport is limited or not available.

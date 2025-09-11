@@ -93,6 +93,28 @@ body.nav-open .nav-links{transform:translateY(0)}
 .button{display:inline-block;background:var(--accent);color:white;text-decoration:none;padding:.7rem 1rem;border-radius:999px}
 .button:hover{filter:brightness(0.95)}
 
+/* Container for side-by-side media and map */
+.media-map-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center; /* Vertically center items */
+  margin: 1rem 0;
+}
+
+.media-map-container > .grid-item {
+  flex: 1;
+  min-width: 0; /* Prevents overflow issues with flex items */
+}
+
+@media (max-width: 760px) {
+  .media-map-container {
+    flex-direction: column;
+  }
+  .map-item {
+    display: none;
+  }
+}
+
 
 .site-footer{border-top:1px solid var(--border);padding:2rem 0;text-align:center;color:#707070}
 

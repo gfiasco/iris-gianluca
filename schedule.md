@@ -7,7 +7,7 @@ permalink: /schedule/
 
 <div class="card">
 <h3>Ceremony</h3>
-<p><strong>4:00 PM</strong> — Sala degli Specchi at {{ site.townhall }}</p>
+<p><strong>4:00 PM</strong> — Sala degli Specchi at {{ site.townhall_name }}</p>
 <p>Doors open at 4 PM. Gentle reminder: the room is small, can only fit 80 people.</p>
 </div>
 

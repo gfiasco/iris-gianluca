@@ -6,26 +6,16 @@ permalink: /rsvp/
 
 Please RSVP by **{{ site.rsvp_deadline | date: "%B %e, %Y" }}**.
 
-
-<form class="card" method="POST" action="{{ site.rsvp_form_action }}">
-<label>Full Name<br>
-<input type="text" name="name" required></label><br>
-<label>Email<br>
-<input type="email" name="email" required></label><br>
-<label>Attending?<br>
-<select name="attending" required>
-<option value="Yes">Yes, wouldn’t miss it!</option>
-<option value="No">Sadly can’t make it</option>
-</select>
-</label><br>
-<label>Guests (including you)<br>
-<input type="number" min="1" max="10" name="guests" value="1" required>
-</label><br>
-<label>Dietary Notes<br>
-<textarea name="diet" rows="3" placeholder="Vegetarian, gluten-free, etc."></textarea>
-</label><br>
-<button class="button" type="submit">Send RSVP</button>
-</form>
-
+<div class="card">
+    <iframe 
+        src="https://docs.google.com/forms/d/e/1FAIpQLSd7ivzeNDvFLzYqU3KXGT7FD-pPfqA3YCQ3uw9hTIompvkv4A/viewform?embedded=true"
+        width="100%" 
+        height="1200" 
+        frameborder="0" 
+        marginheight="0" 
+        marginwidth="0">
+        Loading...
+    </iframe>
+</div>
 
 > **Privacy:** We only use your info for wedding planning.

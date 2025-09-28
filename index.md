@@ -17,8 +17,8 @@ title: Welcome
 </div>
 
 ### Highlights
-- Ceremony at **{{ site.venue_name }}**
-- Reception at **{{ site.townhall_name }}**
+- Ceremony at **{{ site.townhall_name }}**
+- Reception at **{{ site.venue_name }}**
 - Date: **{{ site.wedding_date | date: "%A, %B %e, %Y" }}**
 - Location: **{{ site.city }}, {{ site.region }}, {{ site.country }}**
 

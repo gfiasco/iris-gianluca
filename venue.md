@@ -40,7 +40,7 @@ permalink: /venue/
 <div class="card">
 <h3>Notes</h3>
 <ul class="list">
-<li>Limited on-site parking; we suggest taxis or hotel shuttle.</li>
-<li>Ceremony outdoors, reception indoors.</li>
+<li>Lorem ipsum dolor sit amet.</li>
+<li>Lorem ipsum dolor sit amet.</li>
 </ul>
 </div>

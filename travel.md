@@ -20,9 +20,9 @@ permalink: /travel/
 ---
 
 ### Where to Stay
-- **Hotel Centro Storico** — steps from the venue, perfect if you want everything within walking distance.
-- **Seaview Guesthouse** — family-friendly with a pool and relaxed atmosphere.
-- **Boutique B&B Limone** — a charming stay with a lemon-tree courtyard.
+- **Hotel 1** — Lorem ipsum dolor sit amet.
+- **Hotel 2** — Lorem ipsum dolor sit amet.
+- **Hotel 3** — Lorem ipsum dolor sit amet.
 
 > 🌿 Tip: May is mid-season—rooms can book up quickly, so reserve early!
 

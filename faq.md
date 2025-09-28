@@ -6,7 +6,7 @@ permalink: /faq/
 
 
 **Dress code?**
-Mediterranean cocktail—light fabrics, florals welcome.
+Lorem ipsum dolor sit amet.
 
 
 **Can I bring kids?**

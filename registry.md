@@ -11,16 +11,19 @@ For those who have asked how to offer a little extra kindness, here are some sim
 
 ### Contribution Options
 - **For EUR transfers**
-    - **Name:** {{ site.eur_bank.name }}
-    - **IBAN:** `{{ site.eur_bank.iban }}`
+    - **Name:** {{ site.env.EUR_NAME }}
+    - **IBAN:** `{{ site.env.EUR_IBAN }}`
+    - **IRIS:** `{{ site.env.IRIS_PAY }}`
 
 - **For GBP transfers**
-    - **Name:** {{ site.gbp_bank.name }}
-    - **IBAN:** `{{ site.gbp_bank.iban }}`
+    - **Name:** {{ site.env.GBP_NAME }}
+    - **Sort Code:** `{{ site.env.GBP_SORT }}`
+    - **Acc #:** `{{ site.env.GBP_ACCOUNT }}`
 
-- **For all other currencies**
-    - **Name:** {{ site.revo_bank.name }}
-    - **IBAN:** `{{ site.revo_bank.iban }}`
+
+- **For all other currencies (Revolut)**
+    - **Name:** {{ site.env.GBP_NAME }}
+    - **IBAN:** `{{ site.env.GBP_IBAN }}`
 
 ---
 

@@ -16,21 +16,7 @@ townhall_name: "Palazzo Ducezio"
 townhall_address: "Piazza Municipio, 1 - 96017 Noto (SR), Italy"
 townhall_map_embed_url: "https://www.google.com/maps?q=Palazzo+Ducezio&output=embed"
 
-
-# RSVP handling (Formspree example). Replace with your endpoint or Netlify forms.
-rsvp_form_action: "https://formspree.io/f/yourFormID"
 rsvp_deadline: 2026-04-25
-
-# Registry
-revo_bank:
-  name: "Gian Luca Fiasco"
-  iban: "GB46 REVO 0099 7045 0597 25"
-eur_bank:
-  name: "Iris Michalopoulou Kandri"
-  iban: "GR...."
-gbp_bank: 
-  name: "Gian Luca Fiasco"
-  iban: "GB...."
 
 collections:
   pages:
@@ -39,4 +25,5 @@ collections:
 
 markdown: kramdown
 theme: null
-plugins: []
+plugins:
+  - jekyll-dotenv

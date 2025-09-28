@@ -184,3 +184,27 @@ body.nav-open .nav-links{transform:translateY(0)}
     display: none;
   }
 }
+
+.day-separator {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  margin: 2rem 0 1rem;
+  color: #8c7a3e; /* matches your gold accent tone */
+  font-weight: 600;
+  letter-spacing: .3px;
+}
+.day-separator::before,
+.day-separator::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: rgba(140,122,62,.25);
+}
+.day-separator span {
+  white-space: nowrap;
+  padding: .15rem .5rem;
+  border-left: .25rem solid #f3c94b; /* your accent bar color */
+  background: #fffaf0;
+  border-radius: .25rem;
+}

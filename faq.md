@@ -4,10 +4,11 @@ title: FAQ
 permalink: /faq/
 ---
 
+**If I get lost, what should I do?**
+We will give you a contact number to a family members who will be able to help you.
 
 **Dress code?**
-Lorem ipsum dolor sit amet.
-
+Smart Chic — refined but relaxed. Think linen, light tailoring, and elegant summer vibes. Mocassini or stylish boat shoes are perfect.
 
 **Can I bring kids?**
 Yes! Please include them in your RSVP count.

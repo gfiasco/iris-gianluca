@@ -21,6 +21,7 @@ title: Welcome
 - Reception at **{{ site.venue_name }}**
 - Date: **{{ site.wedding_date | date: "%A, %B %e, %Y" }}**
 - Location: **{{ site.city }}, {{ site.region }}, {{ site.country }}**
+- Help: On wedding day, please contact **{{ site.env.get_help }}**
 
 [RSVP Now]({{ '/rsvp/' | relative_url }}){: .button}
 

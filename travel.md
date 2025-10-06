@@ -20,11 +20,24 @@ permalink: /travel/
 ---
 
 ### Where to Stay
-- **Hotel 1** — Lorem ipsum dolor sit amet.
-- **Hotel 2** — Lorem ipsum dolor sit amet.
-- **Hotel 3** — Lorem ipsum dolor sit amet.
 
-> 🌿 Tip: May is mid-season—rooms can book up quickly, so reserve early!
+We personally visited the following places and can happily recommend them. Each offers a different charm, from rustic agriturismi to elegant hotels.
+💡 **Tip:** It’s best to book directly with the property — and remember, *cash is king* in this region!
+
+* **[Tenuta Arangio](https://www.vendicari-agriturismo.com/it)** — A welcoming agriturismo that may offer a special rate if you mention our names.
+  📍 S.P. Pachino km 14,5, 96017 San Lorenzo SR, Italy
+
+* **[Casa di Vendicari](https://www.casavendicari.it/en)** — A cozy countryside retreat nestled near the Vendicari Nature Reserve.
+  📍 Contrada Vendicari, snc 96017, Noto – Sicilia
+
+* **[La Corte del Sole](https://lacortedelsole.it/en/)** — A refined 4-star hotel overlooking the sea, combining comfort with Sicilian charm.
+  📍 Contrada Bucachemi – Eloro, 96017 Noto SR, Italy
+
+* **[Icarusi](https://www.icarusi.it/en/)** — A refined 4-star hotel overlooking the sea, combining comfort with Sicilian charm.
+  📍 Contrada Bucachemi – Eloro, 96017 Noto SR, Italy
+
+> 🌿 **Travel Tip:** May is mid-season — accommodations fill up fast, so it’s wise to reserve early!
+
 
 
 ---

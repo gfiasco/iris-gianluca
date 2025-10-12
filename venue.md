@@ -36,11 +36,3 @@ permalink: /venue/
     </div>
 </div>
 
-
-<div class="card">
-<h3>Notes</h3>
-<ul class="list">
-<li>Lorem ipsum dolor sit amet.</li>
-<li>Lorem ipsum dolor sit amet.</li>
-</ul>
-</div>

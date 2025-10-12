@@ -4,25 +4,21 @@ title: FAQ
 permalink: /faq/
 ---
 
-**If I get lost, what should I do?**
-We will give you a contact number to a family members who will be able to help you.
-
 **Dress code?**
-Smart Chic — refined but relaxed. Think linen, light tailoring, and elegant summer vibes. Mocassini or stylish boat shoes are perfect.
+> Smart Chic — refined but relaxed.
 
 **Can I bring kids?**
-Yes! Please include them in your RSVP count.
-
+> Yes! Please include them in your RSVP count.
 
 **Allergies?**
-Please list in your RSVP and we’ll accommodate.
+> Please list in your RSVP and we’ll accommodate.
 
 
 **Do I need a car?**
-Yes, you definitely need a car to get to Noto, SR. Public transport is limited or not available.
+>Yes, you definitely need a car to get to Noto, SR. Public transport is limited or not available.
 
 **I'm lost and I need help, what should I do?**
-On wedding day, please contact **{{ site.env.get_help }}**
-Otherwise here's our numbers: 
-- Iris: **{{ site.env.iris_number }}**
-- Gian Luca: **{{ site.env.gian_number }}**
+>On wedding day, please contact **{{ site.env.get_help }}**
+>Otherwise here's our numbers: 
+>- Iris: **{{ site.env.iris_number }}**
+>- Gian Luca: **{{ site.env.gian_number }}**

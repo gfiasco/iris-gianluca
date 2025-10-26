@@ -45,13 +45,13 @@ jobs:
             echo "GBP_SORT=${{ secrets.GBP_SORT }}"
             echo "GBP_ACCOUNT=${{ secrets.GBP_ACCOUNT }}"
             echo "GBP_IBAN=${{ secrets.GBP_IBAN }}"
-          } > .env.production
+          } > .env
 
       - name: Install gems
         run: bundle install --jobs 4 --retry 3
 
       - name: Build with Jekyll
-        run: bundle exec jekyll build -d _site   # or -d public if you prefer
+        run: source .env && bundle exec jekyll build -d _site   # or -d public if you prefer
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

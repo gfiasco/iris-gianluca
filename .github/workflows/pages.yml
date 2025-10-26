@@ -32,6 +32,21 @@ jobs:
           ruby-version: "3.0"        # parity with your GitLab image
           bundler-cache: true        # caches gems using Gemfile.lock
 
+      - name: Generate .env.production
+        run: |
+          {
+            echo "get_help=${{ vars.GET_HELP }}"
+            echo "iris_number=${{ vars.IRIS_NUMBER }}"
+            echo "gian_number=${{ vars.GIAN_NUMBER }}"
+            echo "EUR_NAME=${{ vars.EUR_NAME }}"
+            echo "EUR_IBAN=${{ secrets.EUR_IBAN }}"
+            echo "IRIS_PAY=${{ secrets.IRIS_PAY }}"
+            echo "GBP_NAME=${{ vars.GBP_NAME }}"
+            echo "GBP_SORT=${{ secrets.GBP_SORT }}"
+            echo "GBP_ACCOUNT=${{ secrets.GBP_ACCOUNT }}"
+            echo "GBP_IBAN=${{ secrets.GBP_IBAN }}"
+          } > .env.production
+
       - name: Install gems
         run: bundle install --jobs 4 --retry 3
 

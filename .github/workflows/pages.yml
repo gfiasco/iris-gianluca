@@ -1,0 +1,53 @@
+name: Deploy Jekyll site to GitHub Pages
+
+on:
+  push:
+    branches: ["main"]     # = your GitLab `only: - main`
+  workflow_dispatch:       # allow manual runs
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write          # required by deploy-pages
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Configure Pages (sets up GITHUB_TOKEN auth, etc.)
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # Build Jekyll (this handles Ruby + bundler install for you)
+      - name: Build with Jekyll
+        uses: actions/jekyll-build@v1
+        with:
+          source: ./
+          # You currently build to 'public' on GitLab.
+          # Option A: keep 'public' for a drop-in mental model:
+          destination: ./public
+          # Option B (default Jekyll): use ./_site and update the next step accordingly.
+
+      # Upload the built site as an artifact for Pages to deploy
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public   # <- match 'destination' above
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
